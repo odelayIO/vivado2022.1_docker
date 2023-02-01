@@ -41,6 +41,18 @@ RUN apt-get install -y -qq \
   libswt-gtk-4-java \
   xorg
 
+RUN apt-get install -y -qq \
+  make \
+  patch \
+  vim-gui-common \
+  net-tools \
+  x11-apps \
+  unzip \
+  inetutils-tools \
+  apt-utils 
+
+
+
 # Requirements for PetaLinux (Listed here just as a reference, since PetaLinux is not installed)
 # RUN apt-get install -y -qq \
 #   iproute2 \
