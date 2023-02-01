@@ -1,5 +1,5 @@
 #!/bin/bash
-PROJECT_PATH=${HOME}/projects
+PROJECT_PATH=${HOME}/workspace/kr260
 docker run -it --rm \
   --net host \
   -e LOCAL_UID=$(id -u ${USER}) \
