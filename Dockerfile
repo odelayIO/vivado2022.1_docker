@@ -47,7 +47,9 @@ RUN apt-get install -y -qq \
   vim-gui-common \
   net-tools \
   x11-apps \
+  git \
   unzip \
+  meld \
   inetutils-tools \
   apt-utils 
 
