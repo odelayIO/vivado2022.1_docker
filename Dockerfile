@@ -60,7 +60,8 @@ RUN apt-get install -y -qq \
 RUN pip3 install \
   pyyaml \
   Jinja2 \
-  wavedrom 
+  wavedrom \
+  gitpython
 
 
 # Requirements for PetaLinux (Listed here just as a reference, since PetaLinux is not installed)
